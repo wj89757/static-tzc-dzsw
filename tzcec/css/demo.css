@@ -1,0 +1,102 @@
+
+#modal-iframe{
+  border-bottom-color: black !important;
+}
+
+#modal-custom .iziModal-content header{
+    background: #eee;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+}
+#modal-custom .iziModal-content header a{
+    font-size:18px;
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 30px 25px 25px;
+    text-align: center;
+    background: #3284C3;
+    color: #fff;
+}
+#modal-custom .iziModal-content header a:hover{
+    text-decoration: none;
+}
+#modal-custom .iziModal-content header a.active{
+    background: #fff;
+    color: #3284C3;
+    text-decoration: none;
+}
+#modal-custom .iziModal-content section{
+    font-family: Helvetica, '微软雅黑','Hiragino Sans GB', 'Microsoft Yahei',  Arial, sans-serif;
+    padding: 30px;
+    color:#666;
+}
+#modal-custom .iziModal-content section input:not([type="checkbox"]), #modal-custom .iziModal-content section button{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 26px;
+    padding: 15px;
+    
+    font-size: 14px;
+}
+#modal-custom .iziModal-content section input:focus{
+    border-color:#28CA97;
+}
+#modal-custom .iziModal-content section label[for="check"]{
+    margin-bottom: 26px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+}
+#modal-custom .iziModal-content section footer{
+    overflow: hidden;
+    background-color: #fff;
+    padding:0;
+}
+#modal-custom .iziModal-content section button{
+    background: #3284C3;
+    color: white;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    width: 50%;
+    float: left;
+}
+#modal-custom .iziModal-content section button:hover{
+    opacity: 0.8;
+}
+#modal-custom .iziModal-content section button:nth-child(1){
+    
+    border-radius: 0 3px 3px 0;
+}
+#modal-custom .iziModal-content section button:nth-child(2){
+    border-radius: 3px 0 0 3px;
+    background: #ccc;
+}
+
+#modal-custom .iziModal-content .icon-close{
+    background: #FFF;
+    margin-bottom: 10px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    color: #a9a9a9;
+    cursor: pointer;
+}
+#modal-custom .iziModal-content .icon-close:hover, #modal-custom .iziModal-content .icon-close:focus{
+  color: black;
+}
+.iziModal .iziModal-header-title{
+  font-family: 'Lato', arial;
+  font-weight: 500;
+}
+
+

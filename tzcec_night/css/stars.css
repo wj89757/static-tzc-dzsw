@@ -1,0 +1,57 @@
+/*
+* @Author: Administrator
+* @Date:   2016-08-04 12:38:35
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-08-04 14:21:33
+*/
+#home {
+	margin: 0;
+	min-width: 300px;
+	min-height: 600px;
+	background: radial-gradient(200% 100% at bottom center, #f7f7b6, #e96f92, #75517d, #1b2947);
+	background: radial-gradient(220% 105% at top center, #1b2947 10%, #75517d 40%, #e96f92 65%, #f7f7b6);
+	background-attachment: fixed;
+	overflow: hidden;
+	color: #ffffff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+#home h1,h2{
+	color:#fff;
+}
+@keyframes rotate {
+	0% {
+		transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(0);
+	}
+	100% {
+		transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(-360deg);
+	}
+}
+.stars {
+	transform: perspective(500px);
+	transform-style: preserve-3d;
+	position: fixed;
+	bottom: 0;
+	perspective-origin: 50% 100%;
+	left: 50%;
+	animation: rotate 90s infinite linear;
+}
+.star {
+	width: 2px;
+	height: 2px;
+	background: #F7F7B6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: 0 0 -300px;
+	transform: translate3d(0, 0, -300px);
+	backface-visibility: hidden;
+}

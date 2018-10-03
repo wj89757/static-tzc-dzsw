@@ -1,0 +1,46 @@
+
+#home{
+  background: #48A0E5 url("../img/sky-background.png") 0 0 repeat-x;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+#home img {
+  max-width: 100%;
+  height: auto;
+}
+#home h1{
+  color: #9ADBFF;
+  font-weight: bold;
+}
+#home h2{
+  color:#9ADBFF;
+  font-weight: bold;
+}
+.stage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+.far-clouds {
+    background: transparent url("../img/far-clouds.png") 305px 105px repeat-x;
+}
+.content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    position: relative;
+    z-index: 101;
+}
